@@ -3,7 +3,12 @@ using namespace std;
 
 int arr[20];                                //Array to be search
 int n;                                      //Number of element in the array
-int n;                                      //Index of array element
+int i;                                      //Index of array element
+
+Void input()
+{
+
+}
 
 int main()
 {
