@@ -52,7 +52,7 @@ void LinearSearch()
         }
 
         if (i == n)                                                 //Langkah 5b not found
-            cout << "\n" << item << "Not Found in the Array\n";
+            cout << "\n" << item << " Not Found in the Array\n";
         cout << "\nNumber of Comparisons : " << comparisson << endl;
 
         cout << "\nContinue Search (y/n) ? ";
@@ -64,4 +64,5 @@ int main()
 {
     input();
     LinearSearch();
+    return 0;
 }
