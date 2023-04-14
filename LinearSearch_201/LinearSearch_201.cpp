@@ -5,7 +5,7 @@ int arr[20];                                //Array to be search
 int n;                                      //Number of element in the array
 int i;                                      //Index of array element
 
-Void input()
+void input()
 {
     while (true)
     {
@@ -25,6 +25,20 @@ Void input()
     {
         cout << "<" << (i + 1) << ">";
         cin >> arr[i];
+    }
+}
+
+void LinearSearch()
+{
+    char ch;
+    int comparisson;                        //Number of Comparrison
+
+    do
+    {
+        //Accept the number to be searched
+        cout << "\nEnter the element you want to search : ";        //Langkah 1
+        int item;
+        cin >> item;
     }
 }
 
