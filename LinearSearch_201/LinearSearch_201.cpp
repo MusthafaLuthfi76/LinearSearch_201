@@ -40,10 +40,10 @@ void LinearSearch()
         int item;
         cin >> item;
 
-        comparison = 0;
+        comparisson = 0;
         for (i = 0; i < n; i++)                                     //Langkah 2,3,4
         {
-            comparison++;
+            comparisson++;
             if (arr[i] == item)                                     //Langkah 5a found
              {
                 cout << "\n" << item << "Found at Position" << (i + 1) << endl;
