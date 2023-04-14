@@ -46,7 +46,7 @@ void LinearSearch()
             comparisson++;
             if (arr[i] == item)                                     //Langkah 5a found
              {
-                cout << "\n" << item << "Found at Position" << (i + 1) << endl;
+                cout << "\n" << item << " Found at Position " << (i + 1) << endl;
                 break;
              }
         }
@@ -62,5 +62,6 @@ void LinearSearch()
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    input();
+    LinearSearch();
 }
